@@ -1,0 +1,176 @@
+<!-- This is a project which contains HTML tags -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+</head>
+
+<body>
+    <a href="https://www.facebook.com/monirulislamsakib">MY FACEBOOK</a>
+    <br>
+    <abbr title="Food And Agricultural Organization">FAO</abbr>
+    <address>
+        Kallyanpur, Dhaka
+    </address>
+    <img src="map.jpg" alt="Map" usemap="#map" width="600">
+
+    <map name="map">
+        <area shape="rect" coords="616,259" alt="Book" href="book.htm">
+        <area shape="rect" coords="314,448,461,369" alt="Sunglass" href="sunglass .htm">
+        <area shape="circle" coords="370,37" alt="Cup of coffee" href="coffee.htm">
+    </map>
+    <article>
+        <h1>Google Chrome</h1>
+        <p>Google Chrome is a web browser developed by Google.</p>
+    </article>
+    <audio src="type.mp3" controls></audio>
+    <p>Hello normal text - <b>Hello bold text</b>.</p>
+    <ul>
+        <li>Player <bdi>sakib</bdi>: 10 points</li>
+        <li>Player <bdi>rakib</bdi>: 20 points</li>
+        <li>Player <bdi>إيان</bdi>: 30 points</li>
+    </ul>
+    <bdo dir="rtl">
+        Hello World.
+    </bdo>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+    </blockquote>
+    <button>CLICK ME TO KNOW</button>
+    <canvas id="myCanvas">
+    </canvas>
+
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 80);
+    </script>
+    <table>
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+    </table>
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    <p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:rgb(0, 255, 51)">
+            <col style="background-color:rgb(255, 111, 0)">
+        </colgroup>
+        <tr>
+            <th>NAME</th>
+            <th>JOB</th>
+            <th>PAYMENT</th>
+        </tr>
+        <tr>
+            <td>SAKIB</td>
+            <td>SUDENT</td>
+            <td>0$</td>
+        </tr>
+    </table>
+    <ul>
+        <li><data value="1">Cherry Tomato</data></li>
+        <li><data value="2">Beef Tomato</data></li>
+        <li><data value="3">Snack Tomato</data></li>
+    </ul>
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+    <p>My favorite color is <del>Shakib</del> <ins>Sakib</ins></p>
+    <details>
+        <summary>CLICK HERE</summary>
+        <p>HOPE YOU HAVE A GREAT DAY :)</p>
+    </details>
+    <p><dfn>HTML</dfn> here html is italic.</p>
+    <dialog open>CLICK HERE IT IS A DIALOG BOX</dialog>
+    <br>
+    <br>
+    <br>
+    <html>
+
+    <head>
+        <style>
+            .myDiv {
+                border: 5px outset red;
+                background-color: lightblue;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="myDiv">
+            <h2>This is a heading in a div element</h2>
+            <p>This is some text in a div element.</p>
+        </div>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+        </dl>
+        <p>You <em>have</em> to hurry up!</p>
+        <form action="/action_page.php">
+            <fieldset>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <figure>
+            <img src="map.jpg" alt="Trulli" width="200">
+            <figcaption>fig- Book, Glass and Coffee</figcaption>
+        </figure>
+        <footer>
+            <p>Name: Sakib</p>
+            <p><a href="codeswithsakib@gmail.com">codeswithsakib@gmail.com</a></p>
+        </footer>
+        <form action="/action_page.php" method="get">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+
+    </body>
+
+    </html>
